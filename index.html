@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>home</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+
+
+<style>
+
+body { 
+    background: url(images/bg.jpg);
+    background-color: black;
+    min-height: 750px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    }
+    a:link {
+    text-decoration: none;
+    color: white;
+    }
+    a:visited {
+    text-decoration: none;
+    color: white;
+    }
+    a:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+    }
+
+.flex_parent {
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    }
+
+.row {
+    display: flex;
+    width: fit-content;
+    border-radius: 15px;
+    }
+
+.list {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 22px;
+    color: whitesmoke;
+    line-height: 25px;
+    }
+
+.button {
+    margin: 0px;;
+    }
+.long {
+    display: flex; 
+    align-items: center;
+    width: 200px;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+.tall { 
+    height: fit-content;
+    }
+
+.lg_icon {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    }
+.sm_icon {
+    height: 25px;
+    width: 25px;
+    padding-left: 5px;
+    padding-right: 10px;
+    }
+
+
+</style>
+</head>
+
+
+<body>
+  <div class="flex_parent row" style="margin-top: 100px;">
+    <a href="https://photos.google.com" class="button"><img src="images/gphoto.png" class="lg_icon"></a>
+    <a href="https://app.youneedabudget.com" class="button"><img src="images/ynab.png" class="lg_icon"></a>
+    <a href="https://www.inoreader.com/" class="button"><img src="images/rss.png" class="lg_icon"></a> 
+    <a href="https://www.wunderground.com/forecast/us/tx/houston/29.76,-95.36" class="button"><img src="images/wu.png" class="lg_icon"></a>  
+    <a href="https://healthmate.withings.com/10853842/timeline" class="button"><img src="images/with.png" class="lg_icon"></a>
+  </div>
+  
+
+  <div class="flex_parent">
+    <!--
+        <a href="" class="button long"><img src="images/" class="sm_icon"></a>
+    -->  
+    <div class="row list">
+      TransCore
+      <a href="http://10.11.39.25/cacti" class="button long"><img src="images/cacti.png" class="sm_icon">Cacti</a>
+      <a href="http://10.11.16.27/Orion/SummaryView.aspx?ViewID=1" class="button long"><img src="images/sw.png" class="sm_icon">2801</a>
+      <a href="https://mnprdsam.mnpass.local/" class="button long"><img src="images/sw.png" class="sm_icon">EzPassMn</a>
+      <a href="https://twitter.com" class="button long"><img src="images/birb.png" class="sm_icon">Home</a>
+      <a href="https://twitter.com" class="button long"><img src="images/birb.png" class="sm_icon">Friends</a>
+      
+    </div>
+    <div class="row list">
+        IT
+        <a href="https://twitter.com" class="button long"><img src="images/birb.png" class="sm_icon">Tech</a>
+        <a href="https://www.inoreader.com/folder/Technology" class="button long"><img src="images/rss.png" class="sm_icon">Tech</a>
+        <a href="https://community.chocolatey.org/packages" class="button long"><img src="images/choco.png" class="sm_icon">Packages</a>
+        <a href="https://github.com/" class="button long"><img src="images/git.png" class="sm_icon">Github</a>
+      </div>
+  </div>
+
+
+</body>
+</html>
+
+
